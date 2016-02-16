@@ -151,7 +151,7 @@ success_msg("Good work!")
 
 # Try with Python 
 
---- type:NormalExercise lang:python xp:100 skills:1
+--- type:NormalExercise lang:python xp:100 skills:2
 
 
 
