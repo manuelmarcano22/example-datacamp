@@ -150,15 +150,44 @@ success_msg("Good work!")
 ```
 
 # Try with Python 
+
+--- type:NormalExercise lang:python xp:100 skills:1
+
+## Try with Python
+
+Try an Python exercise
+
+*** =instructions
+- Use Python
+
+
+*** =hint
+- Use numpy
+
+*** =pre_exercise_code
 ```{python}
-test_operator(index = 1, used = ["**"], do_eval = False,
-              incorrect_op_msg = "A little tip: you should use `**` to do this calculation.")
-
-test_object("result", 
-            undefined_msg = "Assign the result of your first operation to `result`.",
-            incorrect_msg = "You didn't calculate `result` correctly.")
-
-test_function("print")
-success_msg("Great!")
+# Import numpy
+import numpy as np
 ```
 
+*** =sample_code
+```{r}
+# a = np.arange(1,5)
+```
+
+*** =solution
+```{python}
+# Calculate the sum of all single digit numbers and assign the result to 's'
+s = sum(range(10))
+
+# Print the result to the shell
+print(s)
+```
+
+*** =sct
+```{python}
+test_function("sum")
+test_object("s")
+test_function("print")
+success_msg("Great job!")
+```
