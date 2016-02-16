@@ -148,3 +148,17 @@ test_error()
 # Final message the student will see upon completing the exercise
 success_msg("Good work!")
 ```
+
+# Try with Python 
+```{python}
+test_operator(index = 1, used = ["**"], do_eval = False,
+              incorrect_op_msg = "A little tip: you should use `**` to do this calculation.")
+
+test_object("result", 
+            undefined_msg = "Assign the result of your first operation to `result`.",
+            incorrect_msg = "You didn't calculate `result` correctly.")
+
+test_function("print")
+success_msg("Great!")
+```
+
