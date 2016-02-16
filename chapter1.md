@@ -173,7 +173,7 @@ import numpy as np
 ```
 
 *** =sample_code
-```{r}
+```{python}
 # a = np.arange(1,5)
 ```
 
